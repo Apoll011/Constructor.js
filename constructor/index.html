@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constructor.js</title>
+</head>
+<body>
+  <script src="js/lib/2.6/plugin/constructor.js/constructor.js"></script>
+
+  <script>
+  var builder = new build();
+  var char = new char();
+
+  var progjs = 60;
+  var progcss = 23;
+  var progjsimg = 60;
+  var progcssimg = 20;
+      
+  builder.link("css/constructor.css", "stylesheet", "text/css");
+  builder.link("img/favicon.png", "shortcut icon", "image/x-icon");
+
+  builder.h("1", "<img src='img/favicon.png' style='width: 45px;margin-bottom: -10px;'> Site de teste", "title");
+  builder.small("Este e um site construído apenas com a ferramenta constructor");
+  builder.br();
+  builder.p("Este e um site de teste construído apenas com a ferramenta constructor <br> com o objetivo de testar a ferramenta de programação", "prim");
+  builder.a("js/lib/2.6/plugin/constructor.js/constructor.js", "Constructor.js", "cstr", "download", "construtor.plugin.js");
+  char.space();
+  builder.progress(progjs, "100");
+  char.space()
+  builder.img("img/" + progjsimg + ".gif", "");
+  builder.br();
+  builder.br();
+  builder.iframe("js/lib/2.6/plugin/constructor.js/constructor.js", "420", "315", "2");
+  builder.br();
+  builder.a("css/constructor.css", "Constructor.css", "cstr", "download", "construtor.plugin.css");
+  char.space();
+  char.space()
+  builder.progress(progcss, "100");
+  char.space()
+  builder.img("img/" + progcssimg + ".gif", "");
+  builder.br();
+  builder.br();
+  builder.iframe("css/constructor.css", "420", "315", "2");
+
+  </script>
+</body>
+</html>

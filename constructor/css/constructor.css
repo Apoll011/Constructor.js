@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+ }
+@font-face {
+    font-family: Font;
+    src: url(../font/COLONNA.TTF);
+}
+@font-face {
+    font-family: Font2;
+    src: url(../font/BRUSHSCI.TTF);
+}
+
+@font-face {
+    font-family: Font3;
+    src: url(../font/GIGI.TTF);
+} 
+     
+a.cstr{
+    border: 1px solid gray;  
+    text-decoration: none;
+    border-radios: 15px;
+    border-style: outset;
+    border-width: 3px;
+    
+}
+a.cstr:hover{
+    
+    border-style: inset;
+    
+}
+a.help{
+}
+.progress{
+   background-color: blue;    
+ }
+small{
+    text-decoration: underline;
+    font-size: 6px;
+    font-family: Arial;
+    margin: 10px;
+}
+h1.title{
+    background-color: rgb(0, 255, 0);
+    margin: 0px;   
+    font-family: Font2;
+    font-size: 40;
+    font-variant: small-caps;
+    }
+a{
+    font-family: Font3;
+}
+p.prim{
+    font-family: Font;
+    color: black;
+    font-size: 15;
+ }
+p{
+font-size: 10;}
+video.expli-video{
+    margin: 0px;
+    padding: 0px;
+    width: 490px;
+    height: 315px;
+    
+    }
+.quem{
+    font-family: Font;
+    color: black;
+    
+    
+    }
